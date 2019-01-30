@@ -11,6 +11,11 @@ body {
     min-height: 100%;
 }
 
+.container {
+    min-height: 100%;
+    position: relative;
+}
+
 .navBar {
     list-style: none;
     width: 100%;
@@ -45,9 +50,10 @@ body {
 
 .sidebar {
     background-color: #257e6f;
-    padding: 2em;
+    padding: 1em;
     float: left;
     width: 20%;
+    height: 100%;
 }
 
 .sidebar img {
@@ -58,13 +64,27 @@ body {
 .sidebar p {
     color: #fff;
     font-size: 0.8rem;
-    line-height: 1.5rem;
+    line-height: 1rem;
 }
 
 .mainContent {
     width: 80%;
+    padding-left: 2rem;
+    margin: 0 auto;
 }
 
-.mainContent > li {
+.mainContent li {
     list-style: none;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 6rem;
+}
+
+.footer {
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    background-color: darkseagreen;
+    width: 100%;
+    align-content: center;
 }
