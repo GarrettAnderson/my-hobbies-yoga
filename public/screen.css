@@ -169,12 +169,17 @@ body {
 /* History page specific styles */
 
 .historyContent {
-    padding-bottom: 7em;
+    padding-bottom: 6em;
 }
 
 .historyContent td {
     border: 3px solid orange;
-    padding: 1em 3em 1em 3rem;
+    padding: 1em 5em 1em 5rem;
+}
+
+.historyContent td:hover {
+    background-color: coral !important;
+    cursor: pointer;
 }
 
 .historyContent #tableRow1 td:nth-Child(even) {
