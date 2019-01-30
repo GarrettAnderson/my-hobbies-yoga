@@ -27,6 +27,7 @@ body {
 
 .navBarList {
     margin-top: 0px;
+    margin-bottom: 0px;
     padding: 1rem 1rem;
 }
 
@@ -53,7 +54,7 @@ body {
     padding: 1em;
     float: left;
     width: 20%;
-    height: 100%;
+    height: 100vh;
 }
 
 .sidebar img {
@@ -67,10 +68,20 @@ body {
     line-height: 1rem;
 }
 
+#contentListItem {
+    border: 3px dashed magenta;
+}
+
 .mainContent {
     width: 80%;
     padding-left: 2rem;
     margin: 0 auto;
+    height: 100vh;
+}
+
+.mainContent ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .mainContent li {
