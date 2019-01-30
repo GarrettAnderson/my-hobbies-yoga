@@ -55,7 +55,7 @@ body {
     padding: 1em;
     float: left;
     width: 20%;
-    height: 100vh;
+    height: 95vh;
 }
 
 .sidebar img {
@@ -79,6 +79,7 @@ body {
 }
 
 .mainContent {
+    padding-top: 1.5em;
     padding-left: 2rem;
     margin: 0 auto;
     height: 100vh;
@@ -110,8 +111,13 @@ body {
     opacity: 0.75;
 }
 
+#contentListItem:first-child {
+    margin-top: 0px;
+}
+
 #contentListItem:hover {
     padding: 3em;
+    cursor: pointer;
 }
 
 .footer {
@@ -123,6 +129,31 @@ body {
     align-content: center;
 }
 
-#homeFooter {
+.footer p {
     /* add background polka dot image  */
+    color: #fdfd96;
+    padding-left: 2rem;
+}
+
+/* Asanas page specific styles */
+
+#asanasMainContent img {
+    width: 150px;
+}
+
+#asanasMainContent {
+    background-image: url('/images/mountains.jpg');
+    background-size: cover;
+}
+
+#asanasMainContent ul {
+    display: inline;
+}
+
+#asanasMainContent li {
+    width: 36%;
+}
+
+#asanasMainContent li:first-child {
+    float: left;
 }
