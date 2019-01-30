@@ -9,6 +9,7 @@ html {
 body {
     margin: 0;
     min-height: 100%;
+    width: 100vw;
 }
 
 .container {
@@ -68,12 +69,16 @@ body {
     line-height: 1rem;
 }
 
-#contentListItem {
-    border: 3px dashed magenta;
+#homeSidebarContent {
+    margin: 0 auto;
+}
+
+#homeSidebarContent img {
+    position: relative;
+    right: 1em;
 }
 
 .mainContent {
-    width: 80%;
     padding-left: 2rem;
     margin: 0 auto;
     height: 100vh;
@@ -91,6 +96,18 @@ body {
     padding-left: 6rem;
 }
 
+#homeMainContent {
+    /* add image to background */
+    background-color: mediumspringgreen;
+}
+
+#contentListItem {
+    border: 3px dashed magenta;
+    color: darkcyan;
+    padding: 1em;
+    margin-left: 5em;
+}
+
 .footer {
     height: 10%;
     position: absolute;
@@ -98,4 +115,8 @@ body {
     background-color: darkseagreen;
     width: 100%;
     align-content: center;
+}
+
+#homeFooter {
+    /* add background polka dot image  */
 }
