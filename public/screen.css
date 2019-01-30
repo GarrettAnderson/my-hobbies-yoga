@@ -75,7 +75,6 @@ body {
 
 #homeSidebarContent img {
     position: relative;
-    right: 1em;
 }
 
 .mainContent {
@@ -156,4 +155,13 @@ body {
 
 #asanasMainContent li:first-child {
     float: left;
+}
+
+#asanasMainContent figure {
+    height: 20em;
+}
+
+#asanasMainContent li:nth-child(2) {
+    position: relative;
+    bottom: 1em;
 }
