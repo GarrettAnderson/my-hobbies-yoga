@@ -96,13 +96,13 @@ body {
     padding-left: 6rem;
 }
 
+/*  css animation of text on home page */
+
 .mainContent p {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: infinite;
 }
-
-/*  css animation of text on home page */
 
 @keyframes slidein {
     from {
@@ -115,6 +115,8 @@ body {
         width: 100%;
     }
 }
+
+/* end animation */
 
 #homeMainContent {
     /* add image to background */
