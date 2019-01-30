@@ -106,6 +106,12 @@ body {
     color: darkcyan;
     padding: 1em;
     margin-left: 5em;
+    background-color: #fff;
+    opacity: 0.75;
+}
+
+#contentListItem:hover {
+    padding: 3em;
 }
 
 .footer {
