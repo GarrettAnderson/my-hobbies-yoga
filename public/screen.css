@@ -165,3 +165,42 @@ body {
     position: relative;
     bottom: 1em;
 }
+
+/* History page specific styles */
+
+.historyContent {
+    padding-bottom: 7em;
+}
+
+.historyContent td {
+    border: 3px solid orange;
+    padding: 1em 3em 1em 3rem;
+}
+
+.historyContent #tableRow1 td:nth-Child(even) {
+    /* background-color: aquamarine; */
+    background-color: #fdfd96;
+}
+
+.historyContent #tableRow1 td:nth-Child(odd) {
+    /* background-color: #fdfd96; */
+    background-color: aquamarine;
+}
+
+.historyContent #tableRow2 td:nth-Child(even) {
+    background-color: aquamarine;
+}
+
+.historyContent #tableRow2 td:nth-Child(odd) {
+    background-color: #fdfd96;
+}
+
+.historyContent #tableRow3 td:nth-Child(even) {
+    /* background-color: aquamarine; */
+    background-color: #fdfd96;
+}
+
+.historyContent #tableRow3 td:nth-Child(odd) {
+    /* background-color: #fdfd96; */
+    background-color: aquamarine;
+}
