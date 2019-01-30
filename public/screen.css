@@ -96,6 +96,26 @@ body {
     padding-left: 6rem;
 }
 
+.mainContent p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+/*  css animation of text on home page */
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
 #homeMainContent {
     /* add image to background */
     background-color: mediumspringgreen;
